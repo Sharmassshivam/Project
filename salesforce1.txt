@@ -1,0 +1,11 @@
+public class SimpleInterestCalculator {
+  public static void calculate()
+    {
+        integer principal = 1000;
+        integer no_of_yrs = 5;
+        decimal rate_of_interest = 5.4;
+        
+        decimal si = (principal* no_of_yrs * rate_of_interest)/100;
+        system.debug('Simple Interest = ' + si);
+    }
+}
